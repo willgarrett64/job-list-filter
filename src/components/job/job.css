@@ -1,0 +1,82 @@
+.job-card {
+  background-color: white;
+  height: 160px;
+  width: 80vw;
+  border-radius: 8px;
+  box-shadow: 0px 11px 19px 0px rgb(102 153 153 / 34%);
+  margin: 0px auto;
+  margin-bottom: 30px;
+  display: grid;
+  grid-template-columns: 160px 1fr 1fr;
+}
+
+.job-card img {
+  height: 90px;
+  width: auto;
+  padding: 35px;
+}
+
+.info {
+  padding: 35px 0;
+  width: fit-content;
+  display: grid;
+  grid-template-rows: repeat(3, 30px);
+}
+
+.company {
+  display: flex;
+  text-align: center;
+}
+
+.bubble {
+  height: 20px;
+  font-size: 0.8rem;
+  font-weight: 600;
+  margin: 3px 10px;
+  padding: 0 10px;
+  border-radius: 25px;
+}
+
+.job-card h2 {
+  height: 30px;
+  padding: 0;
+  margin: 0;
+  color: rgb(45, 82, 82);
+  font-size: 1.3rem;
+}
+.job-card h2:hover {
+  color: rgb(91, 164, 164);
+}
+
+.job-card h3 {
+  padding: 0;
+  margin: 0;
+  margin-right: 20px;
+  color: rgb(91, 164, 164);
+  font-size: 1.1rem;
+}
+
+
+.job-card .details {
+  display: flex;
+  color: gray;
+}
+
+.job-card .details p {
+  margin: 0;
+  margin-right: 10px;
+  padding-top: 5px;
+  font-size: 1rem;
+}
+
+
+.job-tags {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  margin-right: 25px;
+}
+
+.job-tags .tag {
+  margin: 10px;
+}
