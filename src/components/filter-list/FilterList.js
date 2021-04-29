@@ -9,10 +9,12 @@ function FilterList({filterTags, setFilterTags}) {
   }
   
   return (
-    <div className="filter-list">
-      {filterTags.map(filter => {
-        return <FilterTag filter={filter} filterTags={filterTags} setFilterTags={setFilterTags} key={`filter-${filter}`} />
-      })}
+    <div className="filter-box">
+      <div className="filter-list">
+        {filterTags.map(filter => {
+          return <FilterTag filter={filter} filterTags={filterTags} setFilterTags={setFilterTags} key={`filter-`} />
+        })}
+      </div>
       <p className="clear-all hover" onClick={clearAll}>Clear</p>
     </div>
   );

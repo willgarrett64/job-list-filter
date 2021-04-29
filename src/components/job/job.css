@@ -1,13 +1,14 @@
 .job-card {
   background-color: white;
-  height: 160px;
+  height: fit-content;
   width: 80vw;
   border-radius: 8px;
   box-shadow: 0px 11px 19px 0px rgb(102 153 153 / 34%);
   margin: 0px auto;
   margin-bottom: 30px;
   display: grid;
-  grid-template-columns: 160px 1fr 1fr;
+  position: relative;
+  grid-template-columns: 160px min-content auto;
 }
 
 .job-card img {
@@ -72,6 +73,7 @@
 
 .job-tags {
   display: flex;
+  flex-wrap: wrap;
   align-items: center;
   justify-content: flex-end;
   margin-right: 25px;
@@ -79,4 +81,39 @@
 
 .job-tags .tag {
   margin: 10px;
+}
+
+
+
+
+@media only screen and (max-width: 950px) {
+  .job-card {
+    grid-template-rows: repeat(2, 1fr);
+    grid-template-columns: 1fr;
+    padding: 30px
+  }
+
+  .job-card img {
+    position: absolute;
+    border: solid 1px black;
+    top: -25px;
+    left: 30px;
+    height: 50px;
+    width: 50px;
+    padding: 0px;
+  }
+
+  .job-card .info {
+    margin: 0;
+    padding: 0;
+  }
+
+  .job-tags {
+    justify-content: flex-start;
+  }
+
+  .job-tags .tag {
+    margin-left: 0;
+  }
+
 }
