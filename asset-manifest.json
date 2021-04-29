@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/job-list-filter/static/css/main.65063614.chunk.css",
+    "main.css": "/job-list-filter/static/css/main.08bdb790.chunk.css",
     "main.js": "/job-list-filter/static/js/main.45b9aa8a.chunk.js",
     "main.js.map": "/job-list-filter/static/js/main.45b9aa8a.chunk.js.map",
     "runtime-main.js": "/job-list-filter/static/js/runtime-main.8115c8c6.js",
@@ -10,7 +10,7 @@
     "static/js/3.8238caf6.chunk.js": "/job-list-filter/static/js/3.8238caf6.chunk.js",
     "static/js/3.8238caf6.chunk.js.map": "/job-list-filter/static/js/3.8238caf6.chunk.js.map",
     "index.html": "/job-list-filter/index.html",
-    "static/css/main.65063614.chunk.css.map": "/job-list-filter/static/css/main.65063614.chunk.css.map",
+    "static/css/main.08bdb790.chunk.css.map": "/job-list-filter/static/css/main.08bdb790.chunk.css.map",
     "static/js/2.546c18fc.chunk.js.LICENSE.txt": "/job-list-filter/static/js/2.546c18fc.chunk.js.LICENSE.txt",
     "static/media/header.css": "/job-list-filter/static/media/bg-header-desktop.8694f466.svg",
     "static/media/icon-remove.70c075ce.svg": "/job-list-filter/static/media/icon-remove.70c075ce.svg"
@@ -18,7 +18,7 @@
   "entrypoints": [
     "static/js/runtime-main.8115c8c6.js",
     "static/js/2.546c18fc.chunk.js",
-    "static/css/main.65063614.chunk.css",
+    "static/css/main.08bdb790.chunk.css",
     "static/js/main.45b9aa8a.chunk.js"
   ]
 }
