@@ -19,7 +19,7 @@
 
 .info {
   padding: 35px 0;
-  width: fit-content;
+  min-width: 275px;
   display: grid;
   grid-template-rows: repeat(3, 30px);
 }
